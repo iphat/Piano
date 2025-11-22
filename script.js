@@ -18,10 +18,32 @@ div.addEventListener('click', function(ele){
    console.dir(ele.target.innerHTML);
   
      let key = ele.target.innerHTML;
-    //  console.log(obj[sound]);
+     // console.log(obj[key]);
      let currentSound = null;
      if(obj[key]){
         currentSound = new Audio(obj[key]).play();        
      }
+
+// if(ele.target.innerHTML == "A"){
+//     new Audio(obj.A).play();
+// }
+// if(ele.target.innerHTML == "B"){
+//     new Audio(obj.B).play();
+// }
+// if(ele.target.innerHTML == "C"){
+//     new Audio(obj.C).play();
+// }
+// if(ele.target.innerHTML == "D"){
+//     new Audio(obj.D).play();
+// }
+// if(ele.target.innerHTML == "E"){
+//     new Audio(obj.E).play();
+// }
+// if(ele.target.innerHTML == "F"){
+//     new Audio(obj.F).play();
+// }
+// if(ele.target.innerHTML == "G"){
+//     new Audio(obj.G).play();
+// }
 
 });
